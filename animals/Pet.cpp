@@ -19,3 +19,8 @@ string Pet::getString() const
     ss << "Pet food: " << food << ", name: " << name << ", age: " << age << " years";
     return ss.str();
 }
+
+string Pet::getSound() const
+{
+    return "";
+}

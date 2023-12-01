@@ -19,3 +19,8 @@ string Cat::getString() const
     ss << "Cat food: " << food << ", name: " << name << ", age: " << age << " years" << ", number of legs: " << numberOfLegs;
     return ss.str();
 }
+
+string Cat::getSound() const
+{
+    return "Miauw!!!";
+}

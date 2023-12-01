@@ -19,3 +19,8 @@ string Animal::getString() const
     ss << "Animal food: " << food << ", age: " << age << " years";
     return ss.str();
 }
+
+string Animal::getSound() const
+{
+    return "";
+}

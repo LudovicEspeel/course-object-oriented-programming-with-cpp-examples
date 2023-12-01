@@ -10,6 +10,7 @@ class Pet
         ~Pet();
         // some getters and setters ...
         string getString() const;
+        string getSound() const;
     private:
         string name;
         int age;
